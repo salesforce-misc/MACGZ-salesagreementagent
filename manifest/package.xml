@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sales Agreement Agent: everything except the agent-access permission set,
+  which is deployed from post-publish/ after the agent is published.
+  See README.md for the full install steps.
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Sales_Agreement_Agent</members>
+        <name>AiAuthoringBundle</name>
+    </types>
+    <types>
+        <members>SaaAccountPlanObjectiveTest</members>
+        <members>SaaApplyPriceIncrease</members>
+        <members>SaaApplyPriceIncreaseTest</members>
+        <members>SaaCheckOpportunityEligibility</members>
+        <members>SaaCloneSalesAgreement</members>
+        <members>SaaCloseAccountPlanObjective</members>
+        <members>SaaCreateAccountPlanObjective</members>
+        <members>SaaCreateSalesAgreementFromOpp</members>
+        <members>SaaGroundAccount</members>
+        <members>SaaGroundAndLogTest</members>
+        <members>SaaLogActivity</members>
+        <members>SaaOpportunityEligibility</members>
+        <members>SaaSalesAgreementActionsTest</members>
+        <members>SaaSettings</members>
+        <members>SaaSummarizeSalesAgreement</members>
+        <members>SaaSummarizeSalesAgreementTest</members>
+        <members>SaaTestDataFactory</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Sales_Agreement_Agent_Setting__mdt.Agreement_Name_Prefix__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Agreement_Opportunity_Field__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Agreement_Record_Type__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Agreement_Type__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Clone_Carry_Fields__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Objective_Name__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Opportunity_Eligibility_Field__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Opportunity_Record_Type__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Schedule_Count__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Schedule_Frequency__c</members>
+        <members>Sales_Agreement_Agent_Setting__mdt.Start_Date_Rule__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Sales_Agreement_Agent_Setting.Default</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Sales_Agreement_Agent_Setting__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Sales_Agreement_Agent_User</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>66.0</version>
+</Package>

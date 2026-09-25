@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Opportunity_Record_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Opportunity_Eligibility_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Agreement_Record_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Agreement_Opportunity_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Start_Date_Rule__c</field>
+        <value xsi:type="xsd:string">Next_Year_Jan_1</value>
+    </values>
+    <values>
+        <field>Schedule_Frequency__c</field>
+        <value xsi:type="xsd:string">Monthly</value>
+    </values>
+    <values>
+        <field>Schedule_Count__c</field>
+        <value xsi:type="xsd:double">12.0</value>
+    </values>
+    <values>
+        <field>Agreement_Type__c</field>
+        <value xsi:type="xsd:string">Volume</value>
+    </values>
+    <values>
+        <field>Agreement_Name_Prefix__c</field>
+        <value xsi:type="xsd:string">Sales Agreement</value>
+    </values>
+    <values>
+        <field>Clone_Carry_Fields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Objective_Name__c</field>
+        <value xsi:type="xsd:string">Annual Pricing Work</value>
+    </values>
+</CustomMetadata>

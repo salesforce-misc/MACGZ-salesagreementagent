@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement_Opportunity_Field__c</fullName>
+    <description>API name of the Sales Agreement lookup to Opportunity (for example OpportunityId or Opportunity__c). When set, new agreements link back to the opportunity they came from. Blank = no link.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Agreement Opportunity Field</label>
+    <length>80</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Configuration for the Sales Agreement Agent. The agent reads the record named Default. Change these values to fit your org instead of editing the Apex.</description>
+    <label>Sales Agreement Agent Setting</label>
+    <pluralLabel>Sales Agreement Agent Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

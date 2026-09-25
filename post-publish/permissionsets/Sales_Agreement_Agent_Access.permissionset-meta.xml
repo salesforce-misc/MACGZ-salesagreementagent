@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentAccesses>
+        <agentName>Sales_Agreement_Agent</agentName>
+        <enabled>true</enabled>
+    </agentAccesses>
+    <description>Gives a user access to the Sales Agreement Agent in the Agentforce panel. Deploy after the agent is published.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales Agreement Agent Access</label>
+</PermissionSet>
