@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2026, Salesforce, Inc.
+ * All rights reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ * For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/Apache-2.0
+ */
+
 /**
  * Sales Agreement Agent — Jobs 7/8 (summarize side): summarize a Sales
  * Agreement's performance, including planned-vs-actual quantity deviation across

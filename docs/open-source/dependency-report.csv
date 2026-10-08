@@ -1,0 +1,9 @@
+package_name,version,spdx_license,download_url,evidence_path,graph_position,usage,requirement,redistributed
+salesforce-misc/MACGZ-salesagreementagent,n/a,Apache-2.0,https://github.com/salesforce-misc/MACGZ-salesagreementagent,LICENSE.txt,project,runtime,required,yes
+No third-party packages,n/a,NONE,,No package.json pom.xml requirements.txt go.mod composer.lock or vendored third-party source,direct,,,no
+Salesforce platform,customer org,proprietary,https://www.salesforce.com,README.md,excluded-prerequisite,runtime,required,no
+Manufacturing Cloud,customer org,proprietary,https://www.salesforce.com,README.md,excluded-prerequisite,runtime,required,no
+Agentforce,customer org,proprietary,https://www.salesforce.com,README.md,excluded-prerequisite,runtime,required,no
+Salesforce CLI,developer machine,proprietary,https://developer.salesforce.com/tools/salesforcecli,README.md,excluded-prerequisite,build,required,no
+Salesforce Sans (removed from docs/index.html),Monotype build 100,proprietary,,docs/index.html,excluded-prerequisite,runtime,optional,no
+Avant Garde For Salesforce (removed from docs/index.html),W05Dm 2014/2022 Monotype ITC,proprietary,,docs/index.html,excluded-prerequisite,runtime,optional,no

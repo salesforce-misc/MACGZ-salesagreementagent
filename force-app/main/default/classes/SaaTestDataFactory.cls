@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2026, Salesforce, Inc.
+ * All rights reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ * For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/Apache-2.0
+ */
+
 /**
  * Shared test data for the Sales Agreement Agent tests: accounts, standard
  * pricebook entries, opportunities, and Draft sales agreements with product
