@@ -1,4 +1,17 @@
 # Comment line immediately above ownership line is reserved for related other information. Please be careful while editing.
 #ECCN:Open Source
-#GUSINFO:GUS_Team_name,GUS_Product_tag
-* @salesforce-misc/oss
+#GUSINFO:Open Source,Open Source Workflow
+
+# Default owners for the entire repository
+* @carlosvl
+
+# Documentation
+/README.md @carlosvl
+/CONTRIBUTING.md @carlosvl
+/LICENSE* @carlosvl
+/SECURITY.md @carlosvl
+/CODE_OF_CONDUCT.md @carlosvl
+
+# Source code
+/force-app/ @carlosvl
+/post-publish/ @carlosvl
